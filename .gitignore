@@ -19,3 +19,9 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Notebook and generated data
+.ipynb_checkpoints/
+data/*.pkl
+data/*.xlsx
+!data/.gitkeep
